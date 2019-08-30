@@ -8,4 +8,8 @@ class ApplicationController < Sinatra::Base
   get "/" do
   	erb :index
   end
+
+  def self.all
+
+  end
 end
