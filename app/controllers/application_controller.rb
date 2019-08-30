@@ -1,5 +1,7 @@
 class ApplicationController < Sinatra::Base
 
+  @@all = []
+
   configure do
   	set :views, "app/views"
   	set :public_dir, "public"
